@@ -1,0 +1,8 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\T_ShirtPage.class
+com\qa\pages\AccountPage.class
+com\qa\util\ConfigReader.class
+com\qa\util\ElementUtil.class
+com\qa\factory\FileReaderManager.class
+com\qa\util\Constants.class
+com\qa\factory\driverFactory.class

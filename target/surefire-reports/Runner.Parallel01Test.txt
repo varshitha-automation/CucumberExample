@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Runner.Parallel01Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in Runner.Parallel01Test
+initializationError(Runner.Parallel01Test)  Time elapsed: 0.002 s  <<< ERROR!
+cucumber.runtime.CucumberException: Couldn't load plugin class: com.cucumber.listener.ExtentCucumberFormatter. It does not implement cucumber.api.Plugin
+

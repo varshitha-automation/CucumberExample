@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-22T12:49:40.624Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1819333000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "forgot password link",
+        "description": "",
+        "id": "login-page-feature;forgot-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 656734900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.hooks.browserQuit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6567475700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87595200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "forgot password should be displayed",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.forgot_password_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:scr/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
